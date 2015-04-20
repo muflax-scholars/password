@@ -49,7 +49,7 @@ func main() {
 	} else if *long {
 		charPassword(32)
 	} else {
-		pool := englishWords
+		pool := englishWords[:]
 
 		if *debug {
 			poolBits := math.Log2(float64(len(pool)))

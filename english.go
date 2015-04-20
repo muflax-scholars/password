@@ -3,7 +3,7 @@
 
 package main
 
-var englishWords = []string{
+var englishWords = [...]string{
 	"be",
 	"the",
 	"and",
